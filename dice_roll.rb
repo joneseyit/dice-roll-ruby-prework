@@ -4,5 +4,7 @@
 
 def roll
   # code goes here
-  1 + rand(6)
+  random = 0 + rand(5)
+  array = [1..6]
+  array[random]
 end
