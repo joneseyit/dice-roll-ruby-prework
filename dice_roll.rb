@@ -5,6 +5,6 @@
 def roll
   # code goes here
   random = 0 + rand(5)
-  array = [1..6]
+  array = (1..6).to_a
   array[random]
 end
